@@ -1,6 +1,6 @@
 # Site settings
-title:          Rain
-description:    "Rain is a simple and clean Jekyll theme with focus on content."
+title:          Yoo-SeungHyeon's Blog
+description:    "Data Engineer를 준비중인 Yoo SeungHyeon 입니다."
 url:            https://github.com/Yoo-SeungHyeon
 
 # Author
@@ -36,5 +36,3 @@ related_posts_section:
 social:
   email: effort-result@naver.com
   github: https://github.com/Yoo-SeungHyeon
-  twitter: 
-  linkedin: 
