@@ -79,7 +79,7 @@ header {
   align-items: center;
   /* padding-left: 25%;
   padding-right: 25%; */
-  padding: 0 25%;
+  padding: 0 20%;
   border-bottom: 3px solid #4a4a4b;
 }
 
