@@ -67,6 +67,20 @@ import { RouterLink, RouterView } from 'vue-router'
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NanumEnd';
+  src: url('./assets/nanumend.ttf');
+  font-weight: 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumGold';
+  src: url('./assets/nanumgold.ttf');
+  font-weight: 1000;
+  font-style: normal;
+}
+
 /* 기본 스타일 */
 main {
   padding: 20px 20%;
