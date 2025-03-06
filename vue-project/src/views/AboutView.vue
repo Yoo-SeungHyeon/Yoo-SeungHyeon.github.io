@@ -4,7 +4,7 @@
     <h2 class="detail">Hi Everyone, I am <span class="highlight3">Yoo SeungHyeon</span> from <span class="highlight3">Korea, Daejeon.</span></h2>
     <h2 class="detail">During my college career, I participated in various team projects and competitions, which allowed me to gain extensive experience in data utilization. </h2>
     <h2 class="detail">My skills range from data crawling, mining, and preprocessing to performing statistical analysis with <span class="highlight3">SPSS</span>, creating visualizations using <span class="highlight3">Python</span>, 
-      and <span class="highlight3">SFT LLM</span> as well as building <span class="highlight3">ML</span> modelsbuilding machine learning models.</h2>
+      and <span class="highlight3">SFT LLM</span> as well as building <span class="highlight3">ML</span> models.</h2>
     <h2 class="detail">Guided by the adage</h2>
       <h1 class="middle"><span class="highlight2">“Go Fast Alone, Go Far Together.”</span></h1>
     <h2 class="detail">I have embraced the importance of collaboration by mastering 
