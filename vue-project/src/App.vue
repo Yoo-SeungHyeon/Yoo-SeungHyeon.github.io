@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <h1><a href="/">Yoo-SeungHyeon</a></h1>
+      <h1><a href="/">Yoo-SH</a></h1>
       <nav>
         <ul>
           <li>
