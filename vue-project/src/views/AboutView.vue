@@ -78,11 +78,19 @@
       <li>
         <h2>메가존클라우드 아이티 평생교육원 - 디지털 인재 양성과정 (2023-02-07~2023-03-03)</h2>
       </li>
-      
-      
-      
     </ul>
-  
+
+    <br>
+    <br>
+    <h1>Commit Lawn</h1>
+    <img class="lawn" src="https://ghchart.rshah.org/Yoo-SeungHyeon"/>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </div>
 </template>
 
@@ -125,6 +133,10 @@
 
 .middle {
   font-size: 40px;
+}
+
+.lawn {
+  width: 100%;
 }
 
 h1 {
