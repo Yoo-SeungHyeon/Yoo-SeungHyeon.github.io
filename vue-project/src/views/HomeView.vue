@@ -1,28 +1,63 @@
 <template>
-  <div>
+  <div class="main">
     <br>
-    <sl-card class="card-image">
-      <img
-        slot="image"
-        src="https://images.unsplash.com/photo-1547191783-94d5f8f6d8b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
-        alt="A kitten walks towards camera on top of pallet."
-      />
-      <p id="card_p">해당 카드는 임시 카드로 고양이가 참 귀엽습니다.</p>
-    </sl-card>
+    <br>
+    <h1 class="main-banner">Hi, World !!</h1>
+    <h1>
+      Nice to meet you, my name is Yoo-Seungheon and I'm preparing to become a data engineer.
+    </h1>
+    <h1>
+      Thank you so much for visiting my portfolio site.
+    </h1>
+    <h1>
+      This site consists of an introduction about me, my resume, projects, and blog.
+    </h1>
+    <h1>
+      <img class="icon" src="@/assets/fi-rr-user.png"/>
+      : On this page, you can read more about me.
+    </h1>
+    <h1>
+      <img class="icon" src="@/assets/fi-rr-envelope.png"/>
+      : On that page, you can find my resume.
+    </h1>
+    <h1>
+      <img class="icon" src="@/assets/fi-rr-bookmark.png"/>
+      : This page is a compilation of the projects I've worked on over the years. It includes a short description, a link to GitHub, and a link to the demo.
+    </h1>
+    <h1>
+      <img class="icon" src="@/assets/fi-rr-camera.png"/>
+      : On this page, you'll find blog posts that summarize what I've been studying.
+    </h1>
+    <h1>
+      <a href="https://github.com/Yoo-SeungHyeon"><img class="icon" src="@/assets/github_icon.png"/></a>
+      |
+      <a href="mailto:effort-result@naver.com"><img class="icon" src="@/assets/email-icon.png"/></a>
+      : Here's my GitHub page and email
+    </h1>
+    <h1>
+      I hope you enjoy it and have a nice day.
+    </h1>
+    
   </div>
 </template>
 
 <script setup>
-import 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/components/card/card.js';
+
 </script>
 
 <style scoped>
-.card-image {
-        max-width: 300px;
+.main-banner {
+  font-family: 'NanumStrong';
+  font-size: 100px;
+  text-align: center;
+  padding-bottom: 80px;
 }
 
-#card_p {
-        font-size: 20px;
-        font-family: 'Nanum31';
+.icon {
+  width: 20px;
+}
+
+div h1 {
+  font-family: 'NanumGold';
 }
 </style>
