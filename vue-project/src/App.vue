@@ -1,7 +1,12 @@
 <template>
   <div>
     <header>
-      <h1><a href="/">Yoo-SH</a></h1>
+      <h1>
+        <a href="/">
+          <img id="logo" src="@/assets/cat.png"/>
+          <span id="logo_text">Yoo-SH</span>
+        </a>
+      </h1>
       <nav>
         <ul>
           <li>
@@ -72,14 +77,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 15%;
-  padding-right: 15%;
-  border-bottom: 3px solid #c9e3ec;
+  /* padding-left: 25%;
+  padding-right: 25%; */
+  padding: 0 25%;
+  border-bottom: 3px solid #4a4a4b;
 }
 
 h1 {
   font-family: 'NanumStrong', sans-serif;
-  font-size: 50px;
 }
 
 h1 a:visited,
@@ -157,5 +162,13 @@ nav ul li a:hover {
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(-5px);
+}
+
+#logo {
+  width: 60px;
+}
+
+#logo_text{
+  font-size: 40px;
 }
 </style>
