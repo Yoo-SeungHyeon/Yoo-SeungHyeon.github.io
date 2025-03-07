@@ -47,7 +47,7 @@
 
 <style scoped>
 .main-banner {
-  font-family: 'NanumStrong';
+  font-family: 'NanumDaHaengCe';
   font-size: 100px;
   text-align: center;
   padding-bottom: 80px;
@@ -58,6 +58,6 @@
 }
 
 div h1 {
-  font-family: 'NanumGold';
+  font-family: 'NanumDaHaengCe';
 }
 </style>

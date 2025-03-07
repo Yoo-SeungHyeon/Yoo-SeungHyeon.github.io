@@ -106,7 +106,7 @@
 <style scoped>
 .main {
   width: 100%;
-  font-family: 'NanumGold';
+  font-family: 'NanumDaHaengCe';
   font-size:x-large;
 }
 
