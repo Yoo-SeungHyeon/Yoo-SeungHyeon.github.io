@@ -4,7 +4,7 @@
     <br>
     <h1 class="main-banner">Hi, World !!</h1>
     <h1>
-      Nice to meet you, my name is Yoo-Seungheon and I'm preparing to become a data engineer.
+      Nice to meet you, my name is Yoo-Seunghyeon and I'm preparing to become a data engineer.
     </h1>
     <h1>
       Thank you so much for visiting my portfolio site.
