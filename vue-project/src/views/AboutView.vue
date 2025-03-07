@@ -1,5 +1,10 @@
 <template>
   <div class="main">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <h1>Know <span class="highlight3">Who I'M</span></h1>
     <h2 class="detail">Hi Everyone, I am <span class="highlight3">Yoo SeungHyeon</span> from <span class="highlight3">Korea, Daejeon.</span></h2>
     <h2 class="detail">During my college career, I participated in various team projects and competitions, which allowed me to gain extensive experience in data utilization. </h2>
@@ -8,7 +13,7 @@
     <h2 class="detail">Guided by the adage</h2>
       <h1 class="middle"><span class="highlight2">“Go Fast Alone, Go Far Together.”</span></h1>
     <h2 class="detail">I have embraced the importance of collaboration by mastering 
-      cutting-edge technologies such as Docker, GitHub Actions, and AWS to contribute effectively to my teams.</h2>
+      cutting-edge technologies such as <span class="highlight2">Docker, GitHub Actions, and AWS</span> to contribute effectively to my teams.</h2>
     <h2 class="detail">My collaborative spirit and rapid learning ability are among my greatest strengths.</h2>
     <br>
     <br>

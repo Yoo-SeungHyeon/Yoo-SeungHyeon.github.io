@@ -1,28 +1,45 @@
 <template>
   <div>
-    <br>
-    <sl-card class="card-image">
-      <img
-        slot="image"
-        src="https://images.unsplash.com/photo-1547191783-94d5f8f6d8b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
-        alt="A kitten walks towards camera on top of pallet."
+    <h1>Blogs</h1>
+    <!-- grid container -->
+    <div class="blog-grid">
+      <PostCard
+        v-for="post in blogsStore.blogsList"
+        :key="post.post_id"
+        class="card"
+        :post="post"
+        @click="showPostDetail(post.post_id)"
       />
-      <p id="card_p">해당 카드는 임시 카드로 고양이가 참 귀엽습니다.</p>
-    </sl-card>
+    </div>
   </div>
 </template>
 
 <script setup>
-import 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/components/card/card.js';
+import PostCard from '@/components/PostCard.vue'
+import { useBlogsStore } from '@/stores/blogs'
+import { useRouter } from 'vue-router'
+
+const blogsStore = useBlogsStore()
+const router = useRouter()
+
+const showPostDetail = function(post_id) {
+  router.push(`/blogs/${post_id}`)
+}
 </script>
 
 <style scoped>
-.card-image {
-        max-width: 300px;
+/* grid container 설정 */
+.blog-grid {
+  display: grid;
+  gap: 20px; /* 카드 간 간격 */
+  /* 각 카드의 최소 크기를 250px로 지정하고, 공간에 맞춰 늘어남 */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-#card_p {
-        font-size: 20px;
-        font-family: 'Nanum31';
+/* PostCard에 대한 추가 스타일 (필요한 경우) */
+.card {
+  cursor: pointer;
+  /* 카드 내용이 격자 형태에 맞게 조정되도록 설정 */
+  box-sizing: border-box;
 }
 </style>

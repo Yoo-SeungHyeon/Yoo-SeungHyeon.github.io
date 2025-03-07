@@ -4,6 +4,7 @@ import AboutView from '@/views/AboutView.vue'
 import ProjectsView from '@/views/ProjectsView.vue'
 import ResumeView from '@/views/ResumeView.vue'
 import BlogsView from '@/views/BlogsView.vue'
+import PostView from '@/views/PostView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/blogs',
       name: 'BlogsView',
       component: BlogsView,
+    },
+    {
+      path: '/blogs/:post_id',
+      name: 'BlogPostDetail',
+      component: PostView,
     },
   ],
 })
