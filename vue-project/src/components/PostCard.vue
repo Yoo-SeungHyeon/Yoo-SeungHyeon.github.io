@@ -18,11 +18,11 @@ const props = defineProps({
 <style scoped>
 .card {
   width: 300px;
-  padding:10px
+  padding:5%;
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
 .card:hover {

@@ -1,14 +1,14 @@
 <template>
     <div>
       <!-- 제목 (첫 줄) -->
-      <h1>{{ title }}</h1>
+      <h1 class="title">{{ title }}</h1>
       <hr />
       <!-- cover 배너 (두 번째 줄) -->
       <div v-if="cover" class="cover-banner">
         <img :src="cover" alt="Cover Banner" />
       </div>
       <!-- 나머지 markdown 내용 (4번째 줄 이후) -->
-      <div v-html="htmlContent"></div>
+      <div class="content" v-html="htmlContent"></div>
     </div>
   </template>
   
@@ -64,6 +64,15 @@
     max-width: 800px; /* 필요에 따라 조정 */
     display: block;
     margin: 20px auto;
+  }
+
+  .title {
+    font-family: 'NanumDaHaengCe';
+    font-size: 40px;
+  }
+
+  .content {
+    font-family: 'NanumDaHaengCe';
   }
   </style>
   

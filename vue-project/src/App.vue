@@ -94,6 +94,20 @@ import { RouterLink, RouterView } from 'vue-router'
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NanumDaHaengCe';
+  src: url('./assets/NanumDaHaengCe.ttf');
+  font-weight: 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumGarMaesGeur';
+  src: url('./assets/NanumGarMaesGeur.ttf');
+  font-weight: 1000;
+  font-style: normal;
+}
+
 /* 기본 스타일 */
 main {
   padding: 20px 20%;
@@ -117,7 +131,7 @@ h1 {
 h1 a:visited,
 h1 a:active,
 h1 a:focus {
-  color: #012042;
+  color: black;
 }
 
 h1 a {

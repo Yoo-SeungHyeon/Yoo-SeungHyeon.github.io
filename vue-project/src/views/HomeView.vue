@@ -18,7 +18,7 @@
     </h1>
     <h1>
       <img class="icon" src="@/assets/fi-rr-envelope.png"/>
-      : On that page, you can find my resume.
+      : On this page, you can find my resume.
     </h1>
     <h1>
       <img class="icon" src="@/assets/fi-rr-bookmark.png"/>

@@ -36,10 +36,16 @@ const showPostDetail = function(post_id) {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+h1 {
+  font-family: 'NanumDaHaengCe';
+}
+
 /* PostCard에 대한 추가 스타일 (필요한 경우) */
 .card {
   cursor: pointer;
   /* 카드 내용이 격자 형태에 맞게 조정되도록 설정 */
   box-sizing: border-box;
+  /* font-family: 'NanumGarMaesGeur'; */
+  font-family: 'NanumDaHaengCe';
 }
 </style>
